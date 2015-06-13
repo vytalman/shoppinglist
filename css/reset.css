@@ -48,4 +48,9 @@ table {
 
 body {
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	background-color: LightGray;
+}
+
+* {
+	outline: red 1px solid;
 }

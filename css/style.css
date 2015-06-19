@@ -9,10 +9,25 @@
 	padding: 3em 0;
 	font-size: 3em;
 	font-weight: bold;
-	color: #6EBAAA;
+	color: #FFF;
 }
 
 .header-text h1 {
-	background-color: #FFF;
 	padding: 0.125em 0;
+}
+
+#item-input input[type="text"] {
+  	padding: 10px;
+  	border: solid 1px #dcdcdc;
+  	transition: box-shadow 0.3s, border 0.3s;
+}
+#item-input input[type="text"]:focus,
+#item-input input[type="text"].focus {
+  	border: solid 1px #707070;
+  	box-shadow: 0 0 5px 1px #969696;
+}
+
+#item-input {
+	display: block;
+  	margin: 0 auto;
 }

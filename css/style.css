@@ -16,6 +16,12 @@
 	padding: 0.125em 0;
 }
 
+.input {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+
 #item-input input[type="text"] {
   	padding: 10px;
   	border: solid 1px #dcdcdc;
@@ -28,6 +34,11 @@
 }
 
 #item-input {
-	display: block;
-  	margin: 0 auto;
+  	height: 25px;
+  	width: 220px;
+}
+
+#add-button {
+	width: 24px;
+	height: 24px;
 }

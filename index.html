@@ -7,14 +7,35 @@
 	<link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-	<div class="intro-header">
-		<div class="header-text">
-			<h1>Shopping List</h1>
-		</div>
+	<div class="banner">
+		<h1>Shopping List</h1>
 	</div>
-	<div class="input">
-		<input id="item-input">
+	<div class="container">
+		<input id="input" style="font-size:1.125em">
 		<button type="submit" id="add-button">+</button>
+		<h2>Click and drag to sort</h2>
+		<ul id="list">
+			<li class="item">
+				<div class="box"></div>
+				bread
+				<img class="delete" src="images/delete_16.png">
+			</li>
+			<li class="item">
+				<div class="box"></div>
+				milk
+				<img class="delete" src="images/delete_16.png">
+			</li>
+			<li class="item">
+				<div class="box"></div>
+				cereal
+				<img class="delete" src="images/delete_16.png">
+			</li>
+			<li class="item">
+				<div class="box"></div>
+				cheese
+				<img class="delete" src="images/delete_16.png">
+			</li>
+		</ul>
 	</div>
 </body>
 </html>

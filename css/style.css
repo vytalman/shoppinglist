@@ -1,44 +1,72 @@
-.intro-header {
+.banner {
 	background-image: url("../images/grocerygirl.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.header-text {
+.banner h1 {
 	text-align: center;
-	padding: 3em 0;
+	padding: 2em 0;
 	font-size: 3em;
 	font-weight: bold;
 	color: #FFF;
 }
 
-.header-text h1 {
-	padding: 0.125em 0;
-}
-
-.input {
-	width: 500px;
+.container {
+	width: 31.25em;
+	margin: 0 auto 0.1875em;
 	text-align: center;
-	margin: 0 auto;
+	background-color: LightGray;
 }
 
-#item-input input[type="text"] {
+#input {
+	margin: 0.25em auto 0.3125em;
+}
+
+#input input[type="text"] {
   	padding: 10px;
   	border: solid 1px #dcdcdc;
   	transition: box-shadow 0.3s, border 0.3s;
 }
-#item-input input[type="text"]:focus,
-#item-input input[type="text"].focus {
+
+#input input[type="text"]:focus,
+#input input[type="text"].focus {
   	border: solid 1px #707070;
   	box-shadow: 0 0 5px 1px #969696;
-}
-
-#item-input {
-  	height: 25px;
-  	width: 220px;
 }
 
 #add-button {
 	width: 24px;
 	height: 24px;
+}
+
+.container h2 {
+	font-size: 1.25em;
+	padding: 0.5em 0;
+}
+
+.box {
+	float: left;
+	margin-top: 0.125em;
+	margin-right: 1.875em;
+	height: 19px;
+	width: 19px;
+	background: url("../images/checkbox.png") 0 0;
+}
+
+.delete {
+	float: right;
+	margin-top: 0.125em;
+}
+
+#list {
+	padding: 0.3125em;
+	list-style: none;
+}
+
+#list li {
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 1px 0;
 }

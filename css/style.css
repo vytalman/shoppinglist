@@ -54,6 +54,11 @@
 	background: url("../images/checkbox.png") 0 0;
 }
 
+.checked {
+	width: 19px;
+	background: url("../images/checkbox.png") 0 19px;
+}
+
 .delete {
 	float: right;
 	margin-top: 0.125em;

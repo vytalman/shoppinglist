@@ -48,6 +48,9 @@ table {
 
 body {
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	background-image: url("../images/grocerygirl.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /** {

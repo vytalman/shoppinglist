@@ -1,12 +1,6 @@
-.banner {
-	background-image: url("../images/grocerygirl.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 .banner h1 {
 	text-align: center;
-	padding: 2em 0;
+	padding: 1.875em 0;
 	font-size: 3em;
 	font-weight: bold;
 	color: #FFF;
@@ -48,7 +42,7 @@
 .box {
 	float: left;
 	margin-top: 0.125em;
-	margin-right: 1.875em;
+	margin-right: 1.25em;
 	height: 19px;
 	width: 19px;
 	background: url("../images/checkbox.png") 0 0;

@@ -1,6 +1,7 @@
 $(document).ready(function() {
-	// Add to list using button
-	$('#add-button').click(function() {
+
+	// Function to add text from input box to list
+	function addToList() {
 		var inputbox = document.getElementById('input');
 		var inputval = inputbox.value;
 
@@ -11,7 +12,19 @@ $(document).ready(function() {
 
 		// Clear input box
 		document.getElementById('input').value = '';
-		};
+		};		
+	}	
+
+	// Add to list using button
+	$('#add-button').click(function() {
+		addToList();
+	});
+
+	// Add to list using Enter/Return
+	$('#input').keypress(function(e) {
+		if(e.which == 13) {
+			addToList();
+		}
 	});
 
 	// Sortable list
@@ -20,7 +33,7 @@ $(document).ready(function() {
 	});
 
 	// Checkbox functionality
-	$('#list').on('click', '.box', function() {
+	$('#list').on('click', '.box',  function() {
 		$(this).toggleClass('checked');
 	});
 
